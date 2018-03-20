@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.kalana.theapp1.Navi"
+    android:background="@drawable/background1">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <Button
+                android:id="@+id/btnCousPoint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/btn_login_bg"
+                android:text="Customer point"
+                android:textColor="@color/btn_login" />
+
+            <Button
+                android:id="@+id/btnAddNewPromoUser"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/btn_login_bg"
+                android:text="Add new promo user"
+                android:textColor="@color/btn_login" />
+
+            <Button
+                android:id="@+id/btnAvalPromo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/btn_login_bg"
+                android:text="Available promotion"
+                android:textColor="@color/btn_login" />
+            <Button
+                android:id="@+id/btnPendingPromo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@color/btn_login_bg"
+                android:text="pending promotion"
+                android:textColor="@color/btn_login" />
+            <Button
+                android:id="@+id/btnChangeVal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/btn_login_bg"
+                android:text="change point valuve"
+                android:textColor="@color/btn_login" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

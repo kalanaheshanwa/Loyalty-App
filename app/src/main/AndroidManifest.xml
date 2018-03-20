@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kalana.theapp1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Loyalty"
+        android:roundIcon="@drawable/background6"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="com.example.kalana.theapp1.HomeActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CustomPoint"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="com.example.kalana.theapp1.CustomPoint" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddNewPromo"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="com.example.kalana.theapp1.AddNewPromo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChangePointValuve"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="com.example.kalana.theapp1.ChangePointValuve" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PendingPromotion"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="com.example.kalana.theapp1.AvailablePromotion" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Comment"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="com.example.kalana.theapp1.Comment" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AvailablePromotion"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="com.example.kalana.theapp1.PendingPromotion" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Navi"
+            android:label="loyalty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ListItemAvailable" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".MyAccount"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name=".PUPassword"></activity>
+    </application>
+
+</manifest>
